@@ -16,6 +16,7 @@
 
 <style lang="scss" scoped>
     .hero{
+        z-index: 1;
         max-width: 620px;
         padding: 20px 20px;
         margin: auto;

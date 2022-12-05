@@ -8,7 +8,13 @@
             AppHeader,
             AppMain,
             AppFooter
-        }
+        },
+        data(){
+            return{
+                store
+            }
+        },
+        
     }
 </script>
 

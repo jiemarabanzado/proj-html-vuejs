@@ -1,9 +1,11 @@
 <script>
     import { store } from '../store';
     import SectionHero from './SectionHero.vue'
+    import HeadCarousel from './HeadCarousel.vue'
     export default{
         components:{
-            SectionHero
+            SectionHero,
+            HeadCarousel
         },
         data(){
             return{
@@ -14,7 +16,9 @@
 </script>
 
 <template>
-    <header>
+    <div class="head-container">
+        <HeadCarousel/>
+        <header>
         <div class="head-bar container row">
             <div class="head-img">
                 <img src="../assets/img/theme_eduprime_logo.png" alt="">
@@ -48,15 +52,30 @@
         </div>
         <SectionHero/>
         
+        
+        <!--<div class="header-svg"><img src="../assets/svg/svg-1.svg" alt=""></div>-->    
     </header>
-
+    </div>
+    
+    
 </template>
 
 <style lang="scss" scoped>
+    .head-container{
+        height: 490px;
+        overflow-y: hidden;
+        position: relative;
+    }
     header{
-        height: 680px;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
         background-color: #DA5F60E6;
         padding:25px 0px;
+        position:absolute;
+        overflow: hidden;
+        z-index: 2;
         .head-bar{
             align-items: center;
             margin-bottom: 60px;
@@ -99,5 +118,5 @@
         border-radius: 30px;
         color: white;
     }
-
+    
 </style>
