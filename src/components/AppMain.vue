@@ -1,9 +1,11 @@
 <script>
     import FirstMainSection from './FirstMainSection.vue'
+    import SecondMainSection from './SecondMainSection.vue'
     import {store} from '../store'
     export default{
         components:{
-            FirstMainSection
+            FirstMainSection,
+            SecondMainSection
         },
         data(){
             return{
@@ -18,6 +20,7 @@
         <div class="main-container">
             <FirstMainSection/>
         </div>
+        <SecondMainSection/>
     </main>
 </template>
 
