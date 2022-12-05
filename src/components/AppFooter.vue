@@ -1,7 +1,10 @@
 <script>
+    import FootHeader from './FooterHeader.vue'
     import {store} from '../store'
     export default{
-       
+       components:{
+        FootHeader
+       },
         data(){
             return{
                 store
@@ -11,8 +14,7 @@
 </script>
 
 <template>
-    <div>footer</div>
-    <div>{{this.store.temp}}</div>
+    <FootHeader/>
 
 </template>
 
