@@ -19,4 +19,5 @@
 </template>
 
 <style >
+    @import './style/global.scss';
 </style>
