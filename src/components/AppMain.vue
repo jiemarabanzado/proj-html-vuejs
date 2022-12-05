@@ -2,12 +2,16 @@
     import FirstMainSection from './FirstMainSection.vue'
     import SecondMainSection from './SecondMainSection.vue'
     import ThirdMainSection from './ThirdMainSection.vue'
+    import FourthMainSection from './FourthMainSection.vue'
+    import FifthMainSection from './FifthMainSection.vue'
     import {store} from '../store'
     export default{
         components:{
             FirstMainSection,
             SecondMainSection,
-            ThirdMainSection
+            ThirdMainSection,
+            FourthMainSection,
+            FifthMainSection
         },
         data(){
             return{
@@ -24,6 +28,10 @@
         </div>
         <SecondMainSection/>
         <ThirdMainSection/>
+        <div class="main-container">
+            <FourthMainSection/>
+            <FifthMainSection/>
+        </div>
       
 
     </main>

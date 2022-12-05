@@ -208,6 +208,8 @@
     }
     .more button{
         padding: 10px 20px;
+        position: absolute;
+        right: calc(50% - 53.5px);
         border-radius: 30px;
         border: none;
         background-color: #e56768;
