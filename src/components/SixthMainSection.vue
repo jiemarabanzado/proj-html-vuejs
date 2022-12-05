@@ -4,32 +4,33 @@
 
 <template>
     <section>
-        <div class="exam-icon">
-            <img src="../assets/img/Exam-icon.png" alt="">
+        <div class="fees-row row">
+            <div class="right-fees">
+                <div class="fees-img">
+                    <img src="../assets/img/Girl-Illustration.png" alt="">
+                </div>
+            </div>
+            <div class="left-fees">
+                <div class="exam-icon">
+            <img src="../assets/img/Exam-icon-1.png" alt="">
 
         </div>
-        <div class="method-row row">
-            <div class="left-method">
                 <h3>
-                    The most efficient examination method
+                    Variable fees for international students
                 </h3>
                 <p>
                     EduPrime has gathered teachers from around the globe to brainstorm in order to facilitate the evaluation of our students. <br>
                     every teacher from our university has an influence on how students are evaluated at his/her subject
                 </p>
-                <div class="method-btn">
-                    <button>Discover the method</button>
-                </div>
-            </div>
-            <div class="right-method">
-                <div class="method-img">
-                    <img src="../assets/img/Exam-Illustration.png" alt="">
+                <div class="fees-btn">
+                    <button>list of fees</button>
                 </div>
             </div>
         </div>
     </section>
 
 </template>
+
 
 <style lang="scss" scoped>
     section{
@@ -41,11 +42,11 @@
             width: 100%;
         }
     }
-    .method-row{
+    .fees-row{
         justify-content: space-between;
         align-items: center;
         width: 100%;
-        .left-method{
+        .left-fees{
             width: 50%;
             height: 100%;
             h3{
@@ -55,7 +56,7 @@
             p{
                 margin-bottom: 30px;
             }
-            .method-btn{
+            .fees-btn{
                 button{
                     padding: 15px 25px;
                     border-radius: 30px;
@@ -65,9 +66,9 @@
                 }
             }
         }
-        .right-method{
+        .right-fees{
             width: 40%;
-            .method-img{
+            .fees-img{
                 width: 100%;
                 img{
                     width: 100%;

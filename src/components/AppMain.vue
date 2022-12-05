@@ -4,6 +4,7 @@
     import ThirdMainSection from './ThirdMainSection.vue'
     import FourthMainSection from './FourthMainSection.vue'
     import FifthMainSection from './FifthMainSection.vue'
+    import SixthMainSection from './SixthMainSection.vue'
     import {store} from '../store'
     export default{
         components:{
@@ -11,7 +12,8 @@
             SecondMainSection,
             ThirdMainSection,
             FourthMainSection,
-            FifthMainSection
+            FifthMainSection,
+            SixthMainSection
         },
         data(){
             return{
@@ -31,6 +33,7 @@
         <div class="main-container">
             <FourthMainSection/>
             <FifthMainSection/>
+            <SixthMainSection/>
         </div>
       
 
