@@ -16,8 +16,9 @@
 
 <style lang="scss" scoped>
     section{
-        padding: 35px 0px;
+        padding: 45px 0px;
         background-color: #e56768;
+        margin-bottom: 60px;
     }
     .subscribe{
         align-items: center;
