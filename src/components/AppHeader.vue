@@ -84,6 +84,7 @@
     }
     .head-img{
         flex-grow: 1;
+        cursor: pointer;
         img{
             width: 280px;
             object-fit: cover;
@@ -95,6 +96,7 @@
             list-style: none;
             margin-right: 20px;
             color: white;
+            cursor: pointer;
             
         }
     }

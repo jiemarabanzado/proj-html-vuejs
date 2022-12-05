@@ -61,6 +61,78 @@
                 </div>
             </div>
         </div>
+        <div class="tabs main-container">
+            <div class="tab row" :class="(activeTab==0 ? 'active-tab':'')">
+                <div class="left-tab">
+                    <div class="tab-img">
+                        <img src="../assets/img/Gavel-Illustration-e1556884768193.png" alt="">
+                    </div>
+                </div>
+                <div class="right-tab">
+                    <h3>Law faculty</h3>
+                    <p>Learning from world-leading academics and practinioners, you'll not only receive an outstanding grounding in the theory law , but you will be able to understand how those principles are applied in practice through a range of student-led activities and competitions</p>
+                    <div>
+                        <button class="tab-btn">Read more</button>
+                    </div>
+                </div>
+            </div>
+            <div class="tab row" :class="(activeTab==1 ? 'active-tab':'')">
+                <div class="left-tab">
+                    <div class="tab-img">
+                        <img src="../assets/img/Economy.png" alt="">
+                    </div>
+                </div>
+                <div class="right-tab">
+                    <h3>Economy</h3>
+                    <p>Learning from world-leading academics and practinioners, you'll not only receive an outstanding grounding in the theory law , but you will be able to understand how those principles are applied in practice through a range of student-led activities and competitions</p>
+                    <div>
+                        <button class="tab-btn">Read more</button>
+                    </div>
+                </div>
+            </div>
+            <div class="tab row" :class="(activeTab==2 ? 'active-tab':'')">
+                <div class="left-tab">
+                    <div class="tab-img">
+                        <img src="../assets/img/Medicine.png" alt="">
+                    </div>
+                </div>
+                <div class="right-tab">
+                    <h3>Medicine</h3>
+                    <p>Learning from world-leading academics and practinioners, you'll not only receive an outstanding grounding in the theory law , but you will be able to understand how those principles are applied in practice through a range of student-led activities and competitions</p>
+                    <div>
+                        <button class="tab-btn">Read more</button>
+                    </div>
+                </div>
+            </div>
+            <div class="tab row" :class="(activeTab==3 ? 'active-tab':'')">
+                <div class="left-tab">
+                    <div class="tab-img">
+                        <img src="../assets/img/Computer-Science.png" alt="">
+                    </div>
+                </div>
+                <div class="right-tab">
+                    <h3>Computer science</h3>
+                    <p>Learning from world-leading academics and practinioners, you'll not only receive an outstanding grounding in the theory law , but you will be able to understand how those principles are applied in practice through a range of student-led activities and competitions</p>
+                    <div>
+                        <button class="tab-btn">Read more</button>
+                    </div>
+                </div>
+            </div>
+            <div class="tab row" :class="(activeTab==4 ? 'active-tab':'')">
+                <div class="left-tab">
+                    <div class="tab-img">
+                        <img src="../assets/img/Graphic-Design.png" alt="">
+                    </div>
+                </div>
+                <div class="right-tab">
+                    <h3>Graphic design</h3>
+                    <p>Learning from world-leading academics and practinioners, you'll not only receive an outstanding grounding in the theory law , but you will be able to understand how those principles are applied in practice through a range of student-led activities and competitions</p>
+                    <div>
+                        <button class="tab-btn">Read more</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
 </template>
@@ -82,6 +154,7 @@
     .faculties{
         height: 165px;
         box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        margin-bottom: 70px;
         .faculties-row{
             height: 100%;
             width: 100%;
@@ -96,6 +169,7 @@
                 border-right: 2px solid #eaeaea;
             }
             .faculty{
+                cursor: pointer;
                 height: 100%;
                 align-items: center;
                 justify-content: center;
@@ -128,5 +202,61 @@
     .active-faculty-img{
         color: rgb(255, 255, 255);
         filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(312deg) brightness(107%) contrast(101%);
+    }
+    .tabs{
+
+        padding: 20px;
+        position: relative;
+        .tab{
+            width: 100%;
+            height: 100%;
+            align-items: center;
+            position: absolute;
+            bottom: 0;
+            top: 0;
+            right: 0;
+            left: 0;
+            .left-tab{
+                width: 40%;
+                height: 100%;
+                flex-grow: 1;
+                padding-left: 40px;
+                .tab-img{
+                    width: 80%;
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+            .right-tab{
+                width: 51%;
+                height: 100%;
+                h3{
+                    font-size: 2.9rem;
+                    text-align: left;
+                }
+                p{
+                    margin-bottom: 30px;
+                }
+                .tab-btn{
+                    padding: 15px 25px;
+                    border-radius: 25px;
+                    background-color: #e56768;
+                    border: none;
+                    color: white;
+
+                }
+            }
+        }
+    }
+    .tab{
+        opacity: 0;
+        transition: 500ms ease-in-out;
+    }
+    .active-tab{
+        opacity: 1;
+        transition: 300ms ease-in-out;
+        transition-delay: 500ms;
+        z-index: 1;
     }
 </style>
