@@ -1,6 +1,10 @@
 <script>
+    import FirstMainSection from './FirstMainSection.vue'
     import {store} from '../store'
     export default{
+        components:{
+            FirstMainSection
+        },
         data(){
             return{
                 store
@@ -12,17 +16,13 @@
 <template>
     <main>
         <div class="main-container">
-            f
+            <FirstMainSection/>
         </div>
     </main>
 </template>
 
 <style lang="scss" scoped>
     main{
-        .main-container{
-            background-color: red;
-            height: 1000px;
-    }
     }
     
 </style>
