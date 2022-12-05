@@ -1,11 +1,13 @@
 <script>
     import FirstMainSection from './FirstMainSection.vue'
     import SecondMainSection from './SecondMainSection.vue'
+    import ThirdMainSection from './ThirdMainSection.vue'
     import {store} from '../store'
     export default{
         components:{
             FirstMainSection,
-            SecondMainSection
+            SecondMainSection,
+            ThirdMainSection
         },
         data(){
             return{
@@ -21,6 +23,9 @@
             <FirstMainSection/>
         </div>
         <SecondMainSection/>
+        <ThirdMainSection/>
+      
+
     </main>
 </template>
 

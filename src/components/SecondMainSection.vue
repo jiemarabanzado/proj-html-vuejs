@@ -140,7 +140,7 @@
 
 <style lang="scss" scoped>
     section{
-        height: 1000px;
+        height: 750px;
     }
     h3{
         text-align: center;
@@ -232,7 +232,7 @@
                 width: 51%;
                 height: 100%;
                 h3{
-                    font-size: 2.9rem;
+                    font-size: 2.5rem;
                     text-align: left;
                 }
                 p{
