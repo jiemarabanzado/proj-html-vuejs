@@ -70,10 +70,12 @@
     }
     .slide{
         opacity: 0;
+        transition: 200ms ease-in;
     }
     .active{
         opacity: 1;
         z-index: 1;
+        transition: 200ms ease-in-out;
     }
 
 </style>

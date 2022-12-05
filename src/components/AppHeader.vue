@@ -71,7 +71,7 @@
         right: 0;
         top: 0;
         bottom: 0;
-        background-color: #DA5F60E6;
+        background-color: #da5f5fd9;
         padding:25px 0px;
         position:absolute;
         overflow: hidden;

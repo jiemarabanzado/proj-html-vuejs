@@ -10,11 +10,19 @@
 </script>
 
 <template>
-    <div>main</div>
-    <div>{{this.store.temp}}</div>
-
+    <main>
+        <div class="main-container">
+            f
+        </div>
+    </main>
 </template>
 
-<style>
-
+<style lang="scss" scoped>
+    main{
+        .main-container{
+            background-color: red;
+            height: 1000px;
+    }
+    }
+    
 </style>
