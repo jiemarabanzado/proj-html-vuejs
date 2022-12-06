@@ -1,5 +1,12 @@
 <script>
-
+    export default{
+        methods:{
+            topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+        }
+    }
 </script>
 
 <template>
@@ -61,7 +68,7 @@
                 </div>
             </div>
         </div>
-        <button class="chevron"><i class="fa-solid fa-chevron-up"></i></button>
+        <button @click="topFunction" class="chevron"><i class="fa-solid fa-chevron-up"></i></button>
         
         
         <button class="top-btn">
