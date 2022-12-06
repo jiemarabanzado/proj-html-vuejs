@@ -17,6 +17,11 @@
 
 <template>
     <div class="head-container">
+        <div class="left-icon">
+            <div><i class="fa-solid fa-cart-shopping"></i></div>
+            <div><i class="fa-solid fa-book-open"></i></div>
+            <div><i class="fa-regular fa-life-ring"></i></div>
+        </div>
         <HeadCarousel/>
         <header>
         <div class="head-bar container row">
@@ -61,6 +66,21 @@
 </template>
 
 <style lang="scss" scoped>
+    .left-icon{
+        position: absolute;
+        left: 0;
+        bottom: 35%;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        z-index: 30;
+        background-color: #E9D758;
+        div{
+            padding: 9px;
+            color: white;
+            font-size: 0.8rem;
+        }
+
+    }
     .head-container{
         height: 490px;
         overflow-y: hidden;

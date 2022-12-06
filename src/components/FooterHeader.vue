@@ -25,6 +25,7 @@
         justify-content: space-between;
         h3{
             font-size: 2rem;
+            color: white;
         }
         .searchbar{
             width: 35%;
