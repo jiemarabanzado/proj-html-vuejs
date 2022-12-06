@@ -1,11 +1,13 @@
 <script>
     import FootHeader from './FooterHeader.vue'
     import FooterMain from './FooterMain.vue'
+    import LastFooterSection from './LastFooterSection.vue'
     import {store} from '../store'
     export default{
        components:{
         FootHeader,
-        FooterMain
+        FooterMain,
+        LastFooterSection
        },
         data(){
             return{
@@ -20,7 +22,7 @@
     <div class="main-container">
         <FooterMain/>
     </div>
-    
+    <LastFooterSection/>
 
 </template>
 
