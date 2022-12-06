@@ -82,9 +82,20 @@
 
     }
     .head-container{
-        height: 490px;
+        height: 540px;
         overflow-y: hidden;
         position: relative;
+    }
+    .head-container::after{
+        content: '';
+        background-image: url(../assets/img/Wave-1.png);
+        background-size: cover;
+        height: 90px;
+        position: absolute;
+        z-index: 100;
+        bottom: 0;
+        right: 0;
+        left: 0;
     }
     header{
         left: 0;

@@ -130,7 +130,9 @@
 <style lang="scss" scoped>
     section{
         padding: 90px 0px;
+        position: relative;
     }
+    
     h3{
         font-size: 2.5rem;
         margin-bottom: 50px;

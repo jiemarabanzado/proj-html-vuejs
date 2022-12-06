@@ -140,7 +140,18 @@
 
 <style lang="scss" scoped>
     section{
-        height: 750px;
+        padding-top: 70px;
+        padding-bottom: 460px;
+        position: relative;
+    }
+    section::after{
+        content: '';
+        background-image: url('../assets/svg/svg-0.svg');
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        height: 180px;
     }
     h3{
         text-align: center;

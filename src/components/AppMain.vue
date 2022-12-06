@@ -32,8 +32,13 @@
         </div>
         <SecondMainSection/>
         <ThirdMainSection/>
+        
         <div class="main-container">
             <FourthMainSection/>
+        </div>
+    
+        
+        <div class="main-container">
             <FifthMainSection/>
             <SixthMainSection/>
         </div>
@@ -47,6 +52,5 @@
         background-image: url('../assets/img/home-background.png');
         background-size: cover;
         background-position: top;
-    }
-    
+    }   
 </style>

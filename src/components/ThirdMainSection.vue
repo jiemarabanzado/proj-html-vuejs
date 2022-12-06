@@ -78,6 +78,7 @@
     section{
         background-color: #e56768;
         padding: 150px 0px;
+        padding-top: 70px;
         .time-section{
             height: 100%;
             .uni-year{

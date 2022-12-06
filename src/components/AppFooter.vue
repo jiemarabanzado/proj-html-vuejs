@@ -19,13 +19,32 @@
 
 <template>
     <FootHeader/>
-    <div class="main-container">
-        <FooterMain/>
+    <div class="temp-sec">
+        <div class="main-container">
+            <FooterMain/>
+        </div>
     </div>
+    
     <LastFooterSection/>
 
 </template>
 
-<style>
+<style lang="scss" scoped>
+    .temp-sec{
+        position: relative;
+        background-color: #fafafa;
+        &::after{
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            background-image: url('../assets/img/background-wave3.png');
+            background-size: cover;
+            height: 100%;
+            transform: rotate(180deg);
+
+        }
+    }
 
 </style>

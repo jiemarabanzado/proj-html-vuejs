@@ -18,7 +18,6 @@
     section{
         padding: 45px 0px;
         background-color: #e56768;
-        margin-bottom: 60px;
     }
     .subscribe{
         align-items: center;
@@ -35,6 +34,7 @@
                 border-radius: 30px;
                 width: 100%;
                 border: none;
+                padding-left: 10px;
             }
             .email-btn{
                 position: absolute;

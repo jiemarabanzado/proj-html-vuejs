@@ -39,6 +39,7 @@
 
 <style lang="scss" scoped>
     section{
+        padding-top: 60px;
         padding-bottom: 250px;
         h3{
             font-size: 2.5rem;

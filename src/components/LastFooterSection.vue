@@ -215,6 +215,7 @@
                 height: 100%;
                 border-radius: 30px;
                 border: none;
+                padding-left: 10px;
             }
             .foot-btn{
                 width: 50px;
