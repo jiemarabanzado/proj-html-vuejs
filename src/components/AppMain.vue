@@ -25,8 +25,10 @@
 
 <template>
     <main>
-        <div class="main-container">
-            <FirstMainSection/>
+        <div class="first-main-sec">
+            <div class="main-container">
+                <FirstMainSection/>
+            </div>
         </div>
         <SecondMainSection/>
         <ThirdMainSection/>
@@ -41,7 +43,10 @@
 </template>
 
 <style lang="scss" scoped>
-    main{
+    .first-main-sec{
+        background-image: url('../assets/img/home-background.png');
+        background-size: cover;
+        background-position: top;
     }
     
 </style>
