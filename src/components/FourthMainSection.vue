@@ -37,9 +37,9 @@
             </div>
             <div class="course">
                 <div class="course-img">
-                    <img src="../assets/img/Decisions-icon.png" alt="">
+                    <img src="../assets/img/Speaker-icon.png" alt="">
                 </div>
-                <h4>Make Better Decisions</h4>
+                <h4>How to be a speaker</h4>
                 <div class="teacher row">
                     <div class="teacher-icon">
                         <i class="fa-regular fa-user"></i>
@@ -66,9 +66,9 @@
             </div>
             <div class="course">
                 <div class="course-img">
-                    <img src="../assets/img/Decisions-icon.png" alt="">
+                    <img src="../assets/img/Network-icon.png" alt="">
                 </div>
-                <h4>Make Better Decisions</h4>
+                <h4>Network introductions</h4>
                 <div class="teacher row">
                     <div class="teacher-icon">
                         <i class="fa-regular fa-user"></i>
@@ -95,9 +95,9 @@
             </div>
             <div class="course">
                 <div class="course-img">
-                    <img src="../assets/img/Decisions-icon.png" alt="">
+                    <img src="../assets/img/Brand-icon.png" alt="">
                 </div>
-                <h4>Make Better Decisions</h4>
+                <h4>Brand manegement</h4>
                 <div class="teacher row">
                     <div class="teacher-icon">
                         <i class="fa-regular fa-user"></i>
