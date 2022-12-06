@@ -144,7 +144,7 @@
     }
     h3{
         text-align: center;
-        font-size: 2.9rem;
+        font-size: 2.5rem;
         margin-bottom: 25px;
     }
     .first-p{
@@ -232,7 +232,7 @@
                 width: 51%;
                 height: 100%;
                 h3{
-                    font-size: 2.5rem;
+                    font-size: 2rem;
                     text-align: left;
                 }
                 p{

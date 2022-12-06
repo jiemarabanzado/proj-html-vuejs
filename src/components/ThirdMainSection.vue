@@ -81,12 +81,13 @@
         .time-section{
             height: 100%;
             .uni-year{
-                width: 306px;
+                width: 299px;
                 margin: auto;
-                font-size: 2.9rem;
+                font-size: 2.5rem;
                 background-color: #db2a2c;
                 color: white;
-                margin-bottom: 200px;
+                margin-bottom: 180px;
+                
                 
             }
         }
@@ -118,7 +119,7 @@
         bottom: -45%;
         h4{
             color:white;
-            font-size: 1.05rem;
+            font-size:1rem;
             margin-bottom: 10px;
         }
         p{
@@ -133,7 +134,7 @@
         top: -51%;
         h4{
             color:white;
-            font-size: 1.05rem;
+            font-size: 1rem;
             margin-bottom: 10px;
         }
         p{
@@ -148,7 +149,7 @@
         bottom: -45%;
         h4{
             color:white;
-            font-size: 1.05rem;
+            font-size: 1rem;
             margin-bottom: 10px;
         }
         p{
@@ -163,7 +164,7 @@
         top: -51%;
         h4{
             color:white;
-            font-size: 1.05rem;
+            font-size: 1rem;
             margin-bottom: 10px;
         }
         p{
@@ -173,7 +174,7 @@
     .upcoming{
         width: 350px;
         margin: auto;
-        font-size: 2.9rem;
+        font-size: 2.5rem;
         color: white;
         margin-bottom: 50px;
     }
@@ -201,6 +202,7 @@
                 }
             }
             p{
+                font-size: 0.9rem;
                 color: #70727e;
                 margin-bottom:14px;
             }

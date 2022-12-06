@@ -132,7 +132,7 @@
         padding: 90px 0px;
     }
     h3{
-        font-size: 2.9rem;
+        font-size: 2.5rem;
         margin-bottom: 50px;
     }
     .courses-row{
@@ -152,6 +152,7 @@
                 }
             }
             h4{
+                font-size: 0.95rem;
                 text-align: center;
                 margin-bottom: 7px;
             }

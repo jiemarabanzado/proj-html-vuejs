@@ -23,7 +23,7 @@
         color: white;
         h2{
             text-align: center;
-            font-size: 3.1rem;
+            font-size: 2.6rem;
             margin-bottom: 35px;
         }
         p{

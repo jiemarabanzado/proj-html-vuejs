@@ -117,14 +117,20 @@
             margin-right: 20px;
             color: white;
             cursor: pointer;
+            font-family: 'Fredoka One', cursive;
+            &:first-child{
+                color:#e8d259;
+            }
             
         }
     }
     .dropdown-nav div{
         margin-right: 5px;
+        font-family: 'Fredoka One', cursive;
     }
     .dropdown-nav{
         align-items: center;
+        
     }
     .dropdown-nav i{
         font-size: 0.8rem;

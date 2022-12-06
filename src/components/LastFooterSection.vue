@@ -183,7 +183,7 @@
             width: calc(100%/2 - 10px);
             h4{
                 margin-bottom: 25px;
-                font-size: 1.2rem;
+                font-size: 1rem;
                 
             }
         }
@@ -199,7 +199,7 @@
         width: calc(100%/2 - 10px);
         h4{
             margin-bottom: 25px;
-            font-size: 1.2rem;
+            font-size: 1rem;
             
         }
     }
@@ -229,7 +229,7 @@
             }
         }
         h4{
-            font-size: 1.1rem;
+            font-size: 1rem;
             color: white;
             text-align: end;
             margin-bottom: 25px;

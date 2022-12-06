@@ -41,7 +41,7 @@
     section{
         padding-bottom: 250px;
         h3{
-            font-size: 2.9rem;
+            font-size: 2.5rem;
             text-align: center;
             margin-bottom: 30px;
         }

@@ -49,7 +49,7 @@
             width: 50%;
             height: 100%;
             h3{
-                font-size: 2.9rem;
+                font-size: 2.6rem;
                 margin-bottom: 30px;
             }
             p{
