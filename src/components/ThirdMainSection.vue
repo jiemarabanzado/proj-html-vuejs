@@ -226,6 +226,10 @@
             color: white;
             border: none;
             border-radius: 30px;
+            &:hover{
+                background-color: #e56768;
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            }
         }
     }
 </style>

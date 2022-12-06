@@ -63,6 +63,9 @@
                     border: none;
                     color: white;
                     background-color: #e56768;
+                    &:hover{
+                        background-color: #e9d758;
+                    }
                 }
             }
         }

@@ -145,6 +145,10 @@
         border: none;
         border-radius: 30px;
         color: white;
+        &:hover{
+            background-color: white;
+            color: #e56768;
+        }
     }
     
 </style>

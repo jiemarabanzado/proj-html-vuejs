@@ -68,5 +68,8 @@
         border: none;
         color: white;
         background-color: #E9D758;
+        &:hover{
+            background-color: red;
+        }
     }
 </style>
